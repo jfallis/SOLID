@@ -2,13 +2,13 @@ composer-install:
 	composer install
 
 test: composer-install
-	vendor/bin/phpunit --configuration ../solid/phpunit.xml.dist
+	vendor/bin/phpunit --configuration ../SOLID/phpunit.xml.dist
 
 coverage: composer-install
-	XDEBUG_MODE=coverage vendor/bin/phpunit --configuration ../solid/phpunit.xml.dist
+	XDEBUG_MODE=coverage vendor/bin/phpunit --configuration ../SOLID/phpunit.xml.dist
 
 coverage-report: coverage
-	XDEBUG_MODE=coverage vendor/bin/phpunit --configuration ../solid/phpunit.xml.dist --coverage-html=artifacts/coverage \
+	XDEBUG_MODE=coverage vendor/bin/phpunit --configuration ../SOLID/phpunit.xml.dist --coverage-html=artifacts/coverage \
 	&& open artifacts/coverage/index.html
 
 clean:
