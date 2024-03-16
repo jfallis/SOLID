@@ -1,0 +1,6 @@
+*.cache
+.phpunit*
+package.xml
+.idea/
+/artifacts/
+/vendor/

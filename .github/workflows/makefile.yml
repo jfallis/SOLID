@@ -1,0 +1,27 @@
+name: SOLID CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: latest
+
+      - uses: actions/checkout@v3
+
+      - name: Run static checks
+        run: make static
+
+      - name: Run tests
+        run: make test
+
+      - name: Run coverage
+        run: make coverage

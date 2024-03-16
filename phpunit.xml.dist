@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/11.0/phpunit.xsd"
+        backupGlobals="false"
+        beStrictAboutTestsThatDoNotTestAnything="true"
+        colors="true"
+        failOnRisky="true"
+        processIsolation="false"
+        stopOnFailure="false"
+        bootstrap="./vendor/autoload.php"
+        cacheDirectory=".phpunit.cache"
+        backupStaticProperties="false"
+>
+  <testsuites>
+    <testsuite name="SOLID Test Suite">
+      <directory>./tests/</directory>
+    </testsuite>
+  </testsuites>
+  <groups>
+    <exclude>
+      <group>slow</group>
+      <group>legacy</group>
+    </exclude>
+  </groups>
+  <source>
+    <include>
+      <directory>./src/</directory>
+    </include>
+  </source>
+</phpunit>
