@@ -69,7 +69,7 @@ class PercentageDiscount implements DiscountInterface
      */
     public function calculateSavings(int $price): int
     {
-        $calculation = $price * ($this->getDiscount() / 100);
+        $calculation = ($this->getDiscount() * $price) / 100;
 
         return (int) round($calculation);
     }

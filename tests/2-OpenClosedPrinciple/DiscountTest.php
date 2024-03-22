@@ -53,10 +53,10 @@ final class DiscountTest extends TestCase
      */
     public function testOpenClosedPrinciplePercentageDiscount(): void
     {
-        $monetaryDiscount = new PercentageDiscount(15);
+        $percentageDiscount = new PercentageDiscount(15);
 
         $discount = new Discount();
-        $discount->setDiscount($monetaryDiscount);
+        $discount->setDiscount($percentageDiscount);
         $discount->setPrice(3_325);
         $actualCalculateSavings = $discount->calculateSavings();
         $actualDiscountedPrice = $discount->getDiscountedPrice();
