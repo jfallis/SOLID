@@ -11,9 +11,12 @@ In the provided code, we have a `Bird` base class and two derived classes `Owl` 
 For example, if we have a function that operates on a `Bird` object:
 
 ```php
-function describeBird(Bird $bird)
+class Describe
 {
-    return $bird->getText();
+    public static function bird(Bird $bird): string
+    {
+        return $bird->getText();
+    }
 }
 ```
 
@@ -23,8 +26,8 @@ We can pass an instance of `Owl` or `Takahe` to this function, and it will work 
 $owl = new Owl();
 $takahe = new Takahe();
 
-echo describeBird($owl); // Outputs: The Owl is gold and grey in colour and can fly.
-echo describeBird($takahe); // Outputs: The Takahe is purple and blue in colour and cannot fly.
+echo Describe::bird($owl); // Outputs: The Owl is gold and grey in colour and can fly.
+echo Describe::bird($takahe); // Outputs: The Takahe is purple and blue in colour and cannot fly.
 ```
 
 ## Code Structure

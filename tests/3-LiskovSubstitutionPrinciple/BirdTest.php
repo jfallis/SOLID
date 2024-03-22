@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Tests\LiskovSubstitutionPrinciple;
 
 use PHPUnit\Framework\TestCase;
+use SOLID\LiskovSubstitutionPrinciple\Describe;
 use SOLID\LiskovSubstitutionPrinciple\Owl;
 use SOLID\LiskovSubstitutionPrinciple\Takahe;
 
@@ -28,7 +29,7 @@ final class BirdTest extends TestCase
     public function testLiskovSubstitutionPrincipleOwl(): void
     {
         $owl = new Owl();
-        $actual = $owl->getText();
+        $actual = Describe::bird($owl);
 
         $expected = 'The Owl is gold and grey in colour and can fly.';
 
@@ -43,8 +44,8 @@ final class BirdTest extends TestCase
      */
     public function testLiskovSubstitutionPrincipleTakahe(): void
     {
-        $owl = new Takahe();
-        $actual = $owl->getText();
+        $takahe = new Takahe();
+        $actual = Describe::bird($takahe);
 
         $expected = 'The Takahe is purple and blue in colour and cannot fly.';
 

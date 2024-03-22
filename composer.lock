@@ -227,16 +227,16 @@
     },
     {
       "name": "friendsofphp/php-cs-fixer",
-      "version": "v3.51.0",
+      "version": "v3.52.1",
       "source": {
         "type": "git",
         "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-        "reference": "127fa74f010da99053e3f5b62672615b72dd6efd"
+        "reference": "6e77207f0d851862ceeb6da63e6e22c01b1587bc"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/127fa74f010da99053e3f5b62672615b72dd6efd",
-        "reference": "127fa74f010da99053e3f5b62672615b72dd6efd",
+        "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/6e77207f0d851862ceeb6da63e6e22c01b1587bc",
+        "reference": "6e77207f0d851862ceeb6da63e6e22c01b1587bc",
         "shasum": ""
       },
       "require": {
@@ -307,7 +307,7 @@
       ],
       "support": {
         "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-        "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.51.0"
+        "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.52.1"
       },
       "funding": [
         {
@@ -315,7 +315,7 @@
           "type": "github"
         }
       ],
-      "time": "2024-02-28T19:50:06+00:00"
+      "time": "2024-03-19T21:02:43+00:00"
     },
     {
       "name": "myclabs/deep-copy",
@@ -547,16 +547,16 @@
     },
     {
       "name": "phpstan/phpstan",
-      "version": "1.10.59",
+      "version": "1.10.64",
       "source": {
         "type": "git",
         "url": "https://github.com/phpstan/phpstan.git",
-        "reference": "e607609388d3a6d418a50a49f7940e8086798281"
+        "reference": "fb9f270daffedcb5ff46275dcafe92538b1bc4bb"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e607609388d3a6d418a50a49f7940e8086798281",
-        "reference": "e607609388d3a6d418a50a49f7940e8086798281",
+        "url": "https://api.github.com/repos/phpstan/phpstan/zipball/fb9f270daffedcb5ff46275dcafe92538b1bc4bb",
+        "reference": "fb9f270daffedcb5ff46275dcafe92538b1bc4bb",
         "shasum": ""
       },
       "require": {
@@ -605,7 +605,7 @@
           "type": "tidelift"
         }
       ],
-      "time": "2024-02-20T13:59:13+00:00"
+      "time": "2024-03-21T09:57:47+00:00"
     },
     {
       "name": "phpunit/php-code-coverage",
@@ -932,16 +932,16 @@
     },
     {
       "name": "phpunit/phpunit",
-      "version": "11.0.4",
+      "version": "11.0.8",
       "source": {
         "type": "git",
         "url": "https://github.com/sebastianbergmann/phpunit.git",
-        "reference": "3f4261269c91370e9b2b3f64cc76c617c442c35a"
+        "reference": "48ea58408879a9aad630022186398364051482fc"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3f4261269c91370e9b2b3f64cc76c617c442c35a",
-        "reference": "3f4261269c91370e9b2b3f64cc76c617c442c35a",
+        "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/48ea58408879a9aad630022186398364051482fc",
+        "reference": "48ea58408879a9aad630022186398364051482fc",
         "shasum": ""
       },
       "require": {
@@ -1012,7 +1012,7 @@
       "support": {
         "issues": "https://github.com/sebastianbergmann/phpunit/issues",
         "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-        "source": "https://github.com/sebastianbergmann/phpunit/tree/11.0.4"
+        "source": "https://github.com/sebastianbergmann/phpunit/tree/11.0.8"
       },
       "funding": [
         {
@@ -1028,7 +1028,7 @@
           "type": "tidelift"
         }
       ],
-      "time": "2024-02-29T16:21:10+00:00"
+      "time": "2024-03-22T04:21:01+00:00"
     },
     {
       "name": "psr/container",

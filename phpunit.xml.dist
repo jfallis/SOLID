@@ -8,7 +8,6 @@
         failOnRisky="true"
         processIsolation="false"
         stopOnFailure="false"
-        bootstrap="./vendor/autoload.php"
         cacheDirectory=".phpunit.cache"
         backupStaticProperties="false"
 >
